@@ -17,7 +17,7 @@ The goal is to identify distinct customer groups that businesses can use for **t
 ---
 
 ## Dataset
-The dataset used is `Mall_Customers.csv`.  
+The dataset used is `Mall_Customers.csv`  
 It contains the following columns:
 - `CustomerID`  
 - `Annual Income (k$)`  
