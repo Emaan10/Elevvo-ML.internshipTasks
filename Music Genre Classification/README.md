@@ -12,9 +12,9 @@ It applies both **classical ML (Random Forest)** and **Deep Learning (CNNs)** on
 -  **Baseline Model**: Random Forest Classifier on flattened MFCCs  
 -  **Deep Learning Model**: CNN for improved performance on spectrogram-like MFCCs  
 -  **Visualizations**:  
-  - RandomForest Confusion Matrix  
-  - CNN Training History (Accuracy curves)  
-  - Example MFCC and Spectrogram plots  
+   - RandomForest Confusion Matrix  
+   - CNN Training History (Accuracy curves)  
+   - Example MFCC and Spectrogram plots  
 
 ---
 
