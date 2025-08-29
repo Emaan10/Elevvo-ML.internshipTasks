@@ -28,5 +28,33 @@ It contains the following columns:
 ---
 
 ##  Requirements
-Install dependencies via `requirements.txt`.
+Install dependencies via `requirements.txt`
 
+## Results  
+
+### K-Means Clustering (k=5)  
+
+| Cluster | Avg. Annual Income (k$) | Avg. Spending Score | Count |
+|---------|--------------------------|---------------------|-------|
+| 0       | ~55.3                   | ~49.5               | 81    |
+| 1       | ~86.5                   | ~82.1               | 39    |
+| 2       | ~25.7                   | ~79.4               | 22    |
+| 3       | ~88.2                   | ~17.1               | 35    |
+| 4       | ~26.3                   | ~20.9               | 23    |
+
+**Silhouette Score (K-Means):** ~0.555  
+
+---
+
+### DBSCAN Clustering  
+
+- Produced significant noise points (`-1` cluster).  
+- No valid silhouette score due to single/noisy cluster formation.  
+
+---
+
+## Visualizations  
+
+- Elbow Method curve (for optimal K)  
+- K-Means clusters with centroids  
+- DBSCAN clusters with noise points  
