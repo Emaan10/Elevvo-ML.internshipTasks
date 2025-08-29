@@ -2,39 +2,38 @@
 
 This project predicts students’ exam scores based on factors such as study hours and other numeric features available in the dataset. It applies Linear Regression and Polynomial Regression to evaluate performance and compare single-feature vs. multi-feature prediction accuracy.
 
-## Features:
+## Features
 
-Cleans and preprocesses raw student performance data
+- Cleans and preprocesses raw student performance data
 
-Visualizes the relationship between study hours and exam scores
+- Visualizes the relationship between study hours and exam scores
 
-Trains and evaluates both Linear and Polynomial Regression models
+- Trains and evaluates both Linear and Polynomial Regression models
 
-Compares results using:
+## Compares results using
 
-MAE (Mean Absolute Error)
+- MAE (Mean Absolute Error)
 
-MSE (Mean Squared Error)
+- MSE (Mean Squared Error)
 
-R² (Coefficient of Determination)
+- R² (Coefficient of Determination)
 
-Tests models on:
+## Tests models on
 
-A single feature (study_hours)
+- A single feature (study_hours)
 
-Multiple numeric predictors from the dataset
+- Multiple numeric predictors from the dataset
 
 ## Dataset
 
-The dataset should be provided as student_performance_factors.csv in the project directory.
-It must include an exam_score column (target variable) and other numeric features (e.g., study hours, attendance, etc.).
+The dataset is provided as student_performance_factors.csv in the project directory.
 
-🛠 Tools & Libraries
+## Tools & Libraries
 
-Python
+- Python
 
-Pandas & NumPy for data processing
+- **Pandas & NumPy** for data processing
 
-Matplotlib & Seaborn for visualization
+- **Matplotlib & Seaborn** for visualization
 
-Scikit-learn for regression modeling and evaluation
+- **Scikit-learn** for regression modeling and evaluation
