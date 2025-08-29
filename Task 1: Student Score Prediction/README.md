@@ -26,7 +26,7 @@ This project predicts students’ exam scores based on factors such as study hou
 
 ## Dataset
 
-The dataset is provided as student_performance_factors.csv in the project directory.
+The dataset is provided as 'StudentPerformanceFactors.csv' in the project directory.
 
 ## Tools & Libraries
 
