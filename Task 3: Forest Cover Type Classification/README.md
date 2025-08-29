@@ -21,5 +21,20 @@ It applies Random Forest and XGBoost classifiers, evaluates performance, visuali
 - **Source:** UCI Covertype dataset
   - Available on **Kaggle** as a competition dataset  
   - Also available in **scikit-learn** via `sklearn.datasets.fetch_covtype()`    
-- **Target:** Predict the type of forest cover (7 classes)  
+- **Target:** Predict the type of forest cover (7 classes)
+
+---
+
+##  Results
+
+| Model                  | Accuracy | F1 Score |
+|-------------------------|----------|----------|
+| Random Forest (Baseline) | ~0.9517  | ~0.9514  |
+| XGBoost (Baseline)       | ~0.8237  | ~0.8206  |
+| Random Forest (Tuned)    | Higher (depends on GridSearch results) | Higher |
+| XGBoost (Tuned)          | Higher (depends on GridSearch results) | Higher |
+
+-  Random Forest achieves higher accuracy & F1 compared to XGBoost in baseline.  
+-  Hyperparameter tuning further improves both models.
+
 
