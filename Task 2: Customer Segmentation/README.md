@@ -1,4 +1,4 @@
-# Customer Segmentation with Clustering
+# Customer Segmentation
 
 This project applies **unsupervised machine learning** techniques to segment mall customers based on their **Annual Income** and **Spending Score**.  
 The goal is to identify distinct customer groups that businesses can use for **targeted marketing and strategy planning**.
