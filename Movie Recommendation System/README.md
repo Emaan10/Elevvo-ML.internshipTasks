@@ -33,10 +33,28 @@ This dataset contains **100,000 ratings** from **943 users** on **1,682 movies**
 
 ---
 
+##  Results
+
+### Precision@5 (first 10 users)
+
+| userId | User-based Precision@5 | Item-based Precision@5 | SVD Precision@5 |
+|--------|-------------------------|-------------------------|-----------------|
+| 1      | 0.60                    | 0.40                    | 0.20            |
+| 2      | 0.40                    | 0.60                    | 0.40            |
+| ...    | ...                     | ...                     | ...             |
+
+### Mean Precision@5
+- **User-based:** ~0.52  
+- **Item-based:** ~0.47  
+- **SVD:** ~0.35  
+
+> *Values may vary slightly depending on the random train-test split.*
+
+---
+
 ## Requirements
 
 Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-
