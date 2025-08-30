@@ -3,7 +3,6 @@
 This project applies **unsupervised machine learning** techniques to segment mall customers based on their **Annual Income** and **Spending Score**.  
 The goal is to identify distinct customer groups that businesses can use for **targeted marketing and strategy planning**.
 
----
 
 ## Features
 - Loads and preprocesses the **Mall Customers dataset**
@@ -14,7 +13,6 @@ The goal is to identify distinct customer groups that businesses can use for **t
 - Computes **Silhouette Score** for clustering performance
 - Provides **cluster summaries** with mean income, mean spending score, and counts
 
----
 
 ## Dataset
 The dataset used is `Mall_Customers.csv`  
@@ -25,7 +23,6 @@ It contains the following columns:
 
 > Place the dataset in the project root folder or adjust the `file_path` in the script.
 
----
 
 ##  Requirements
 Install dependencies via `requirements.txt`
@@ -44,14 +41,6 @@ Install dependencies via `requirements.txt`
 
 **Silhouette Score (K-Means):** ~0.555  
 
----
-
-### DBSCAN Clustering  
-
-- Produced significant noise points (`-1` cluster).  
-- No valid silhouette score due to single/noisy cluster formation.  
-
----
 
 ## Visualizations  
 
